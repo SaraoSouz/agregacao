@@ -88,6 +88,12 @@ class Pessoa {
     andarRapido(_rapido) {
         console.log(`${this.nome} anda: ${_rapido}`);
     }
+    /**
+     * CRUD
+     */
+    cadastroPessoa(batatinha) {
+        console.log(`${batatinha.nome} cadastrado com sucesso`);
+    }
 }
 exports.Pessoa = Pessoa;
 //# sourceMappingURL=Pessoa.js.map

@@ -115,6 +115,13 @@ export class Pessoa {
     console.log(`${this.nome} anda: ${_rapido}`);
     }
 
+    /**
+     * CRUD
+     */
+
+    public cadastroPessoa(batatinha: Pessoa) {
+        console.log(`${batatinha.nome} cadastrado com sucesso`);
+    }
     
 }
 
